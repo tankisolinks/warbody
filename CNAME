@@ -1,1 +1,5 @@
-warbody.com
+$ dig EXAMPLE.COM +noall +answer
+> EXAMPLE.COM     3600    IN A     185.199.108.153
+> EXAMPLE.COM     3600    IN A     185.199.109.153
+> EXAMPLE.COM     3600    IN A     185.199.110.153
+> EXAMPLE.COM     3600    IN A     185.199.111.153
