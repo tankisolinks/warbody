@@ -153,47 +153,20 @@ background: linear-gradient(90deg, rgba(170,170,170,1) 0%, rgba(42,42,42,1) 100%
   text-decoration: none;
    }
   
-  /* DEMO-SPECIFIC STYLES */
-.typewriter h1 {
-  color: #2a2a2a;
-  font-family: Aldrich', sans-serif;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid orange; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
-  animation: 
-    typing 3.5s steps(30, end),
-    blink-caret .5s step-end infinite;
-  font-style: normal;
-  font-weight: normal !important;
-  text-transform: uppercase !important;
-  color: #2a2a2a;
-  font-size: 8.5px !important;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
+.typewriter {
+    font-family: 'Aldrich', sans-serif;
+	display: inline-block;
 }
 
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: orange }
-}	letter-spacing: 2px;
- 	animation: typing 5s steps(30, end), blink .75s step-end;
+.typewriter-text {
+    display: inline-block;
+  	overflow: hidden;
+  	letter-spacing: 2px;
+ 	animation: typing 5s steps(30, end), blink .75s step-end infinite;
     white-space: nowrap;
-    font-size: 8.5px;
-    border-right: 1.5x solid orange;
+    font-size: 30px;
+    font-weight: 700;
+    border-right: 4px solid orange;
     box-sizing: border-box;
 }
 
